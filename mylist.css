@@ -1,0 +1,45 @@
+#Logo {
+    position:absolute; top:400px; left: 0px;
+}
+
+body {
+    background-color: #96e7f3;
+}
+
+#header{
+    position:absolute; top:5px; left: 100px;
+    color: white
+}
+
+#mylist{
+    position:absolute; top:100px; left: 100px;
+}
+
+#logout{
+    position:absolute; top:400px; left: 500px;
+    background-color: #feddb8;;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#goback{
+    position:absolute; top:400px; left: 250px;
+    background-color: #feddb8;;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}

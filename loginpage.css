@@ -1,0 +1,32 @@
+body {
+    background-color: #96e7f3;
+}
+
+#Login_info{
+    background-color: #feddb8;
+    height: 450.63px;
+    width: 400.88px;
+    position:absolute; left:600px; top:50px
+}
+
+#name{
+    position:absolute; top:100px; left: 20px;
+}
+
+#password{
+    position:absolute; top:150px; left: 20px
+}
+
+#Submit{
+    position:absolute; top:250px; left: 150px;
+    background-color: #82ca9c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
