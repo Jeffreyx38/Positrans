@@ -15,14 +15,10 @@ CREATE TABLE `observation` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `user` (`NAME`, `PASSWORD`) VALUES
-    ('jz553', '1234'),
-    ('pb123', '1234');
+    ('zona123', SHA1('1234'));
 
 INSERT INTO `observation` (`user_ID`, `OBSERVATION`) VALUES
     (3, 'hello i feel well'),
     (3, 'im not good');
 
-SELECT OBSERVATION 
-FROM user, observation 
-WHERE (user.user_ID = observation.user_ID) 
-AND (observation.user_ID = 5);
+

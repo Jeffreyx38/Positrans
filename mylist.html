@@ -3,18 +3,20 @@
 <html>
     <title>MyList</title>
     <head>
-        <meta name= "viewport" content= "width= device-width, inital-scale= 1">
+      <!--  <meta name= "viewport" content= "width= device-width, inital-scale= 1">-->
         <link rel="stylesheet" type="text/css" href="mylist.css">
+        <script src="mylist.js"></script>
     </head>
-    <body>
+    <body onload="request()"> 
         <h1 id=header>Here is a list of your Positive Experiences :)</h1>
         <img id= "Logo" src= "./logo.png" alt= "Logo">
-        <div id=text>
-            <form action="/Mylist" method= "POST">
-                <textarea action="" id= "mylist" rows= "20" cols="95" ></textarea>
+        <p id="text">   </p>
+            <form action="/goback" method= "GET">
                 <input id="goback" type="submit" value="Go Back!">
             </form> 
-        </div>
-            <form action= "/Logout" method= "POST">
+            <form action= "/logout" method= "GET">
                 <input id="logout" type="submit" value="Logout">
             </form>
+    </body>
+</html>
+            
