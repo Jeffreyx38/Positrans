@@ -1,0 +1,85 @@
+* {
+    font-family:arial;
+    color: black;
+}
+    body {
+    text-align:center;
+    background-color: #96e7f3;
+    }
+    div {
+    text-align:center;
+    margin:auto;
+    border:1px solid black;
+    width:400px;
+    background-color:#feddb8;
+    }
+    table {
+    margin:auto;
+    }
+    form {
+    text-align:left;
+    
+    border:1px solid black;
+    }
+    input {
+    margin:5px auto 20px 5px;
+    width:385px;
+    height:30px;
+    border-radius:5px;
+    }
+    label {
+    font-weight:bold;
+    margin-left:5px;
+    width:100px;
+    text-align:left;
+    
+    }
+    input[type=button] {
+    background-color:#12aee3;
+    border:none;
+    color:white;
+    font-weight:bold;
+    vertical-align:bottom;
+    margin-bottom:0px;
+    height:40px;
+    cursor:pointer;
+    }
+    p {
+    color:black;
+    font-weight:bold;
+    font-size:10px;
+    }
+    .errorInput {
+        border: 2px solid rgb(255, 0, 0);
+    }
+    .errorMessage {
+        color: black;
+        border: 2px solid rgb(0, 0, 0);
+    }
+
+    #submitt{
+        background-color: #82ca9c;
+        border: none;
+        color: white;
+        padding: 5px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+    }
+
+    #goback{
+        background-color: #82ca9c;
+        border: none;
+        color: white;
+        padding: 5px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
